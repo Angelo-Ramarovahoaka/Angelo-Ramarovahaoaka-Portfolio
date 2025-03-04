@@ -4,7 +4,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 type Language = 'en' | 'fr';
 
 // English and French translations
-const translations = {
+const translationsData = {
   en: {
     nav: {
       about: 'About',
@@ -109,7 +109,7 @@ const translations = {
   },
 };
 
-type TranslationsType = typeof translations.en;
+type TranslationsType = typeof translationsData.en;
 
 type LanguageContextType = {
   language: Language;
@@ -121,7 +121,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<Language>('en');
-  const [translations, setTranslations] = useState<TranslationsType>({} as TranslationsType);
+  const [translations, setTranslations] = useState<TranslationsType>(translationsData.en);
 
   useEffect(() => {
     // Check for stored language preference
@@ -138,18 +138,15 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
 
   useEffect(() => {
     // Update translations when language changes
-    setTranslations(language === 'en' ? translations.en : translations.fr);
+    setTranslations(language === 'en' ? translationsData.en : translationsData.fr);
     localStorage.setItem('language', language);
     
     // Update HTML lang attribute
     document.documentElement.lang = language;
   }, [language]);
 
-  // Use the appropriate translation object based on current language
-  const t = language === 'en' ? translations.en : translations.fr;
-
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+    <LanguageContext.Provider value={{ language, setLanguage, t: translations }}>
       {children}
     </LanguageContext.Provider>
   );
