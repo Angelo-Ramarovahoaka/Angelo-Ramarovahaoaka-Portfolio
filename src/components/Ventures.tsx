@@ -1,5 +1,5 @@
 
-import React from 'react';
+import * as React from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import AnimatedSection from './AnimatedSection';
 import { Briefcase, Calendar, ExternalLink } from 'lucide-react';
