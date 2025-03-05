@@ -255,24 +255,6 @@ const Contact: React.FC = () => {
               </a>
             </div>
           </div>
-          
-          <div className="glass-card p-6 rounded-xl mt-10">
-            <h3 className="text-xl font-bold mb-4">Office Hours</h3>
-            <div className="space-y-3">
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">Monday - Friday</span>
-                <span>9:00 AM - 6:00 PM</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">Saturday</span>
-                <span>By appointment</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">Sunday</span>
-                <span>Closed</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </AnimatedSection>
