@@ -45,7 +45,7 @@ const translationsData = {
         year: '2024',
         status: 'current',
         link: 'https://ramaro-fish.vercel.app/',
-        image: 'src/image/venture/ramarofish.png',
+        image: 'public/image/venture/ramarofish.png',
       },],
     },
     contact: {
@@ -101,7 +101,7 @@ const translationsData = {
         year: '2024',
         status: 'actuel',
         link: 'https://ramaro-fish.vercel.app/',
-        image: 'src/image/venture/ramarofish.png',
+        image: 'public/image/venture/ramarofish.png',
       },],
     },
     contact: {

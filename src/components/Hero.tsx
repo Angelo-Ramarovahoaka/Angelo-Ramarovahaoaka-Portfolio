@@ -1,9 +1,9 @@
 
-import React from 'react';
+import * as React from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { ArrowDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import bgImg from '@/image/bg.png';
+import bgImg from '../../public/image/bg.png';
 
 const Hero: React.FC = () => {
   const { t } = useLanguage();

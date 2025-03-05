@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { ArrowUp } from 'lucide-react';
-import bgImg from '@/image/bg.png';
+import bgImg from '../../public/image/bg.png';
 
 
 const Footer: React.FC = () => {
