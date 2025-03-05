@@ -119,7 +119,7 @@
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-primary to-accent-foreground bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary to-accent-foreground bg-clip-text text-[#ff014f] font-black;
   }
 }
 

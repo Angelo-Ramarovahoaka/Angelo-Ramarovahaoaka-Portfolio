@@ -12,10 +12,9 @@ const About: React.FC = () => {
   
   const skills = [
     'Software Engineering', 'System Architecture', 'Frontend Development',
-    'Backend Development', 'Machine Learning', 'Deep Learning', 
-    'Natural Language Processing', 'Computer Vision', 'Reinforcement Learning', 
+    'Backend Development', 'Machine Learning', 'Deep Learning',
     'Data Science', 'Python', 'JavaScript/TypeScript',
-    'React', 'Node.js', 'TensorFlow', 'PyTorch', 
+    'React', 'TensorFlow', 'SEO Optimization',
     'Product Strategy', 'Business Development', 'Entrepreneurship'
   ];
 

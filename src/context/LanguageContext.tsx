@@ -37,6 +37,15 @@ const translationsData = {
       subtitle: 'Building Innovative Solutions',
       founded: 'Founded',
       current: 'Current',
+      each_venture:[{
+        title: 'RamaroFish',
+        role: 'Founder & CEO',
+        description: 'RamaroFish is a platform for managing and marketing fish products, directly connecting fish farmers and buyers. It allows producers to efficiently manage their business, optimize the sale and distribution of their products, while ensuring better visibility on the market. Thanks to dedicated tools, RamaroFish facilitates promotion, inventory monitoring and transactions, ensuring access to quality products in quantity.',
+        year: '2024',
+        status: 'current',
+        link: 'https://ramaro-fish.vercel.app/',
+        image: 'src/image/venture/ramarofish.png',
+      },],
     },
     contact: {
       title: 'Get in Touch',
@@ -84,6 +93,15 @@ const translationsData = {
       subtitle: 'Construire des Solutions Innovantes',
       founded: 'Fondé',
       current: 'Actuel',
+      each_venture:[{
+        title: 'RamaroFish',
+        role: 'Fondateur & CEO',
+        description: 'RamaroFish est une plateforme de gestion et de commercialisation des produits piscicoles, mettant en relation directe les pisciculteurs et les acheteurs. Elle permet aux producteurs de gérer efficacement leur activité, d’optimiser la vente et la distribution de leurs produits, tout en assurant une meilleure visibilité sur le marché. Grâce à des outils dédiés, RamaroFish facilite la promotion, le suivi des stocks et les transactions, garantissant un accès aux produits de qualité en quantité.',
+        year: '2024',
+        status: 'actuel',
+        link: 'https://ramaro-fish.vercel.app/',
+        image: 'src/image/venture/ramarofish.png',
+      },],
     },
     contact: {
       title: 'Contactez-Moi',

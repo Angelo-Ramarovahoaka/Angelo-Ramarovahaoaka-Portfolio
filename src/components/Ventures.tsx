@@ -7,36 +7,6 @@ import { Briefcase, Calendar, ExternalLink } from 'lucide-react';
 const Ventures: React.FC = () => {
   const { t } = useLanguage();
   
-  const ventures = [
-    {
-      title: 'TechVision AI',
-      role: 'Founder & CEO',
-      description: 'An AI research and development company focused on creating visual intelligence solutions for industries ranging from retail to healthcare.',
-      year: '2020',
-      status: 'current',
-      link: '#',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
-    },
-    {
-      title: 'ML Ventures',
-      role: 'Co-founder & CTO',
-      description: 'A startup accelerator specializing in machine learning startups, providing funding, technical guidance, and business development support.',
-      year: '2018',
-      status: 'acquired',
-      link: '#',
-      image: 'https://images.unsplash.com/photo-1613479205646-c0dc1ee5f71c?q=80&w=2070&auto=format&fit=crop',
-    },
-    {
-      title: 'DataSphere Analytics',
-      role: 'Technical Advisor',
-      description: 'A data analytics consulting firm that helps businesses implement data-driven strategies and solutions.',
-      year: '2017',
-      status: 'advisor',
-      link: '#',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
-    },
-  ];
-  
   return (
     <AnimatedSection id="ventures" className="bg-background clip-path-slant-reverse">
       <div className="text-center mb-16">
@@ -52,7 +22,7 @@ const Ventures: React.FC = () => {
         {/* Timeline line */}
         <div className="absolute top-0 bottom-0 left-[30px] md:left-1/2 w-0.5 bg-border z-0" />
         
-        {ventures.map((venture, index) => (
+        {t.ventures.each_venture.map((venture, index) => (
           <div 
             key={index} 
             className="relative z-10 flex flex-col md:flex-row mb-16 md:even:flex-row-reverse"

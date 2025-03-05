@@ -39,7 +39,7 @@ const Header: React.FC = () => {
       )}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <a href="#" className="text-2xl font-display font-bold tracking-tight text-gradient">
+        <a href="#" className="text-2xl font-display font-bold tracking-tight text-gradient text-red-500">
           Angelo R.
         </a>
         
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
             )}
           </>
         ) : (
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center space-x-16">
             <nav className="flex space-x-8">
               {navItems.map((item, index) => (
                 <a

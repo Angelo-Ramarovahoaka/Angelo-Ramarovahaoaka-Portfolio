@@ -14,8 +14,8 @@ const LanguageSwitch: React.FC<LanguageSwitchProps> = ({ className }) => {
     <button
       onClick={() => setLanguage(language === 'en' ? 'fr' : 'en')}
       className={cn(
-        'rounded-full px-3 py-1 text-sm font-medium transition-all duration-300 ease-in-out',
-        'bg-secondary text-foreground hover:bg-secondary/80',
+        'rounded-full px-3 py-1 text-sm font-medium transition-all duration-300 ease-in-out ',
+        'bg-secondary text-foreground hover:bg-secondary/80 text-[#ff014f] font-bold',
         className
       )}
       aria-label={language === 'en' ? 'Switch to French' : 'Switch to English'}
