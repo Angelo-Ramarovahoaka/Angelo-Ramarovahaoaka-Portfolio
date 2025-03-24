@@ -55,7 +55,7 @@ const Header: React.FC = () => {
             </button>
             
             {isMobileMenuOpen && (
-              <div className="fixed inset-0 top-[60px] z-50 glass animate-fade-in p-6">
+              <div className="fixed inset-x-0 top-0 top-[60px] z-50 glass animate-fade-in p-6 h-screen">
                 <nav className="flex flex-col space-y-6 text-center text-lg mt-10">
                   {navItems.map((item, index) => (
                     <a

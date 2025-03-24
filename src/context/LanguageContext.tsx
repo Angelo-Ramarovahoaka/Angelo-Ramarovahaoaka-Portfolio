@@ -29,7 +29,7 @@ const translationsData = {
       showLess: 'Show Less',
     },
     projects: {
-      title: 'AI & ML Projects',
+      title: 'AI & ML | WEB Projects',
       subtitle: 'Exploring the Frontiers of Artificial Intelligence',
       viewProject: 'View Project',
     },
@@ -85,7 +85,7 @@ const translationsData = {
       showLess: 'Voir Moins',
     },
     projects: {
-      title: 'Projets IA & ML',
+      title: 'Projets IA & ML | WEB',
       subtitle: 'Explorer les Frontières de l\'Intelligence Artificielle',
       viewProject: 'Voir le Projet',
     },

@@ -12,17 +12,16 @@ const About: React.FC = () => {
   const [expandedCertificate, setExpandedCertificate] = useState<number | null>(null);
   
   const skills = [
-    'Software Engineering', 'System Architecture', 'Frontend Development',
-    'Backend Development', 'Machine Learning', 'Deep Learning',
-    'Data Science', 'Python', 'JavaScript/TypeScript',
-    'React', 'TensorFlow', 'SEO Optimization',
+    'System Architecture','Docker','linux',
+    'Software Engineering', 'Frontend Development','Backend Development','React','NestJs',  'SEO Optimization','c++',
+    'Machine Learning', 'Deep Learning', 'Python', 'TensorFlow', 'sklearn',
     'Product Strategy', 'Business Development', 'Entrepreneurship'
   ];
 
   const certifications = [
     {
       title: 'AWS Certified Solutions Architect',
-      organization: 'Amazon Web Services',
+      organization: 'Sololearn',
       date: '2023',
       description: 'Professional certification for designing distributed systems on AWS.',
       image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop'

@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 m-10 pb-10 place-items-start justify-center">
           <div>
             <h4 className="text-sm font-semibold mb-4">Navigation</h4>
             <ul className="space-y-2">
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           
-          <div>
+          <div> 
             <h4 className="text-sm font-semibold mb-4">{t.nav.ventures}</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">RamaroFish</a></li>

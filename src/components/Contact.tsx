@@ -122,7 +122,7 @@ const Contact: React.FC = () => {
         </div>
         
         <div className="space-y-8">
-          <div>
+          <div className='flex flex-col justify-center'>
             <h3 className="text-xl font-bold mb-6">Contact Information</h3>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
@@ -135,7 +135,7 @@ const Contact: React.FC = () => {
                     href="mailto:angelo@example.com" 
                     className="text-foreground hover:text-primary transition-colors"
                   >
-                    angelo@example.com
+                    angeloramarovahoaka@gmail.com
                   </a>
                 </div>
               </div>
@@ -147,10 +147,10 @@ const Contact: React.FC = () => {
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Phone</p>
                   <a 
-                    href="tel:+1234567890" 
+                    href="tel:+261342034496" 
                     className="text-foreground hover:text-primary transition-colors"
                   >
-                    +1 (234) 567-890
+                    +261342034496
                   </a>
                 </div>
               </div>
@@ -161,7 +161,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Location</p>
-                  <p className="text-foreground">San Francisco, California</p>
+                  <p className="text-foreground">Antananarivo, Madagascar</p>
                 </div>
               </div>
             </div>
