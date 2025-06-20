@@ -109,45 +109,34 @@ const About: React.FC = () => {
               <div className="space-y-8">
                 <div className="glass-card p-6 rounded-xl">
                   <div className="flex justify-between items-start mb-2">
-                    <h4 className="font-semibold">Senior Software Engineer</h4>
-                    <span className="text-sm text-muted-foreground">2021 - Present</span>
+                    <h4 className="font-semibold">Founder & CEO</h4>
+                    <span className="text-sm text-muted-foreground">2024 – Present</span>
                   </div>
-                  <h5 className="text-primary mb-3">TechVision AI</h5>
+                  <h5 className="text-primary mb-3">RamaroFish</h5>
                   <p className="text-sm text-muted-foreground">
-                    Leading development of scalable software solutions and AI systems. Architecting cloud-native applications using React, Node.js, and AWS services while implementing machine learning models for real-world applications.
+                    Company specializing in fish farming (tilapia, carp). Development of smart solutions (connected sensors, AI for growth monitoring).
                   </p>
                 </div>
                 
                 <div className="glass-card p-6 rounded-xl">
                   <div className="flex justify-between items-start mb-2">
-                    <h4 className="font-semibold">AI Research Lead</h4>
-                    <span className="text-sm text-muted-foreground">2020 - 2021</span>
+                    <h4 className="font-semibold">Project Coordinator & Co-founder</h4>
+                    <span className="text-sm text-muted-foreground">2023 - 2024</span>
                   </div>
-                  <h5 className="text-primary mb-3">TechVision AI</h5>
+                  <h5 className="text-primary mb-3">SMART KAJY</h5>
                   <p className="text-sm text-muted-foreground">
-                    Led a team of researchers focusing on developing cutting-edge AI solutions for real-world applications. Specialized in natural language processing and computer vision technologies.
+                    IT club at the Faculty of Science, University of Antananarivo.
                   </p>
                 </div>
                 
                 <div className="glass-card p-6 rounded-xl">
                   <div className="flex justify-between items-start mb-2">
-                    <h4 className="font-semibold">Co-founder & CTO</h4>
-                    <span className="text-sm text-muted-foreground">2018 - 2020</span>
+                    <h4 className="font-semibold">Project Leader - Char'Bio</h4>
+                    <span className="text-sm text-muted-foreground">2022 - 2023</span>
                   </div>
-                  <h5 className="text-primary mb-3">ML Ventures</h5>
+                  <h5 className="text-primary mb-3">Menafify Ambohipo Tselatra</h5>
                   <p className="text-sm text-muted-foreground">
-                    Co-founded a startup focused on democratizing machine learning tools for small businesses. Oversaw the technical strategy and development of the platform.
-                  </p>
-                </div>
-                
-                <div className="glass-card p-6 rounded-xl">
-                  <div className="flex justify-between items-start mb-2">
-                    <h4 className="font-semibold">Software Engineer</h4>
-                    <span className="text-sm text-muted-foreground">2016 - 2018</span>
-                  </div>
-                  <h5 className="text-primary mb-3">DataSphere Inc.</h5>
-                  <p className="text-sm text-muted-foreground">
-                    Developed full-stack applications and data-driven solutions utilizing modern frameworks and machine learning algorithms for predictive analytics.
+                    Project focused on converting organic waste into eco-friendly charcoal.
                   </p>
                 </div>
               </div>
