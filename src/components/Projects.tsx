@@ -10,36 +10,36 @@ const Projects: React.FC = () => {
   
   const projects = [
     {
-      title: 'RamaroFish',
-      description: 'Smart aquaculture solution specializing in fish farming (tilapia, carp) with IoT sensors for water quality monitoring and AI-powered growth tracking systems.',
+      title: 'Water Quality',
+      description: 'AI-powered system for testing water potability based on real-time sensor data. This project uses machine learning algorithms to evaluate water quality indicators such as pH, turbidity, temperature, and conductivity, classifying water as potable or non-potable. Designed for environmental monitoring and public health applications.',
       image: '/lovable-uploads/5ca53ea6-4400-4ab9-93ed-1e7098b7470c.png',
-      tags: ['IoT', 'AI Monitoring', 'Aquaculture', 'Sensors'],
-      link: '#',
-      github: 'https://github.com/Kimbohy/ramaroFish',
+      tags: ['AI', 'Machine Learning', 'IoT', 'Water Quality', 'Public Health', 'Environmental Monitoring', 'Smart Sensors', 'Sustainability', 'Edge Computing'],
+      link: 'https://github.com/Angelo-Ramarovahoaka/WaterQuality',
+      github: 'https://github.com/Angelo-Ramarovahoaka/WaterQuality'
     },
     {
-      title: 'RamaroFish Dashboard',
-      description: 'Advanced dashboard for RamaroFish platform featuring real-time analytics, revenue tracking, and comprehensive business intelligence for aquaculture operations.',
+      title: 'RamaroFish',
+      description: 'RamaroFish is a digital platform designed to connect all stakeholders in the aquaculture sector — from fish farmers and input suppliers to buyers and experts. The platform offers a centralized dashboard with real-time analytics and business intelligence tools to enhance decision-making, monitor production, and foster collaboration across the aquaculture value chain. It aims to modernize and streamline the aquaculture ecosystem for greater productivity and sustainability.',
       image: '/lovable-uploads/1942fe3b-0c4c-4e41-92f6-ad0c12bdcad1.png',
-      tags: ['Dashboard', 'Analytics', 'Business Intelligence', 'Real-time Data'],
-      link: '#',
-      github: 'https://github.com/Kimbohy/ramaroFish',
+      tags: ['Dashboard', 'Analytics', 'Business Intelligence', 'Real-time Data', 'Aquaculture', 'Platform', 'Sustainability', 'Agritech', 'Community'],
+      link: 'https://ramaro-fish.vercel.app/',
+      github: 'https://github.com/Kimbohy/ramaroFish'
     },
     {
       title: 'Char\'Bio Eco-Charcoal',
       description: 'Sustainable project converting organic waste into eco-friendly charcoal using innovative biochar production techniques for environmental conservation.',
       image: '/lovable-uploads/9128d38b-00b5-4455-b1f5-816119509d5d.png',
       tags: ['Sustainability', 'Biochar', 'Waste Management', 'Environmental'],
-      link: '#',
-      github: '#',
+      link: 'https://www.facebook.com/profile.php?id=100082030669064',
+      github: 'https://www.facebook.com/profile.php?id=100082030669064',
     },
     {
-      title: 'AI & Machine Learning Platform',
-      description: 'Comprehensive AI/ML platform combining advanced algorithms, neural networks, and deep learning techniques for intelligent data processing and predictive analytics.',
+      title: 'AI & Machine',
+      description: 'A collection of applied machine learning projects addressing real-world challenges. This includes a book recommendation system, customer segmentation analysis, life expectancy prediction, loan approval prediction, sales forecasting, and spam detection. Each project demonstrates the use of supervised and unsupervised learning, as well as deep learning techniques.',
       image: '/lovable-uploads/701ac476-ac11-47cc-9250-1bad9606e236.png',
-      tags: ['Artificial Intelligence', 'Machine Learning', 'Neural Networks', 'Deep Learning'],
-      link: '#',
-      github: '#',
+      tags: ['Artificial Intelligence', 'Machine Learning', 'Neural Networks', 'Deep Learning', 'Data Science', 'Prediction', 'Classification', 'Clustering'],
+      link: 'https://github.com/Angelo-Ramarovahoaka/ML_Project',
+      github: 'https://github.com/Angelo-Ramarovahoaka/ML_Project'
     },
   ];
   
