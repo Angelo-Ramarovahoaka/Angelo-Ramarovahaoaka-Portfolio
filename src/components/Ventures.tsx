@@ -16,24 +16,6 @@ const Ventures: React.FC = () => {
       year: '2024',
       status: 'current',
       link: '#'
-    },
-    {
-      title: 'SMART KAJY',
-      role: 'Project Coordinator & Co-founder',
-      description: 'IT club at the Faculty of Science, University of Antananarivo focused on technology innovation and student development.',
-      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop',
-      year: '2023',
-      status: 'advisor',
-      link: '#'
-    },
-    {
-      title: 'Char\'Bio Project',
-      role: 'Project Leader',
-      description: 'Project focused on converting organic waste into eco-friendly charcoal at Menafify Ambohipo Tselatra.',
-      image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format&fit=crop',
-      year: '2022',
-      status: 'completed',
-      link: '#'
     }
   ];
   
