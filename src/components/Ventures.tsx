@@ -11,7 +11,7 @@ const Ventures: React.FC = () => {
     {
       title: 'RamaroFish',
       role: 'Founder & CEO',
-      description: 'Company specializing in fish farming (tilapia, carp). Development of smart solutions (connected sensors, AI for growth monitoring).',
+      description: 'Innovative aquaculture company specializing in the farming of tilapia and carp. We design and implement smart technologies, including connected sensors and AI-driven solutions, to monitor and optimize fish growth and overall farm performance',
       image: '/lovable-uploads/a41ff3ba-c301-47f2-9436-0ee57d4d3b89.png',
       year: '2024',
       status: 'current',
