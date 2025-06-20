@@ -41,30 +41,6 @@ const Projects: React.FC = () => {
       link: '#',
       github: '#',
     },
-    {
-      title: 'Water Quality Test',
-      description: 'Advanced water quality analysis system using machine learning algorithms to predict and monitor water parameters for environmental and industrial applications.',
-      image: 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?q=80&w=2070&auto=format&fit=crop',
-      tags: ['Machine Learning', 'Environmental Monitoring', 'Data Analysis', 'Python'],
-      link: '#',
-      github: 'https://github.com/Angelo-Ramarovahoaka/WaterQuality',
-    },
-    {
-      title: 'NeuralTalk',
-      description: 'A conversational AI platform that utilizes advanced natural language processing to provide human-like interactions for customer support and personal assistants.',
-      image: 'https://images.unsplash.com/photo-1677442135146-8b623de639c1?q=80&w=2070&auto=format&fit=crop',
-      tags: ['Natural Language Processing', 'Deep Learning', 'Transformer Models'],
-      link: '#',
-      github: '#',
-    },
-    {
-      title: 'Smart Predictive Analytics',
-      description: 'Machine learning platform that combines multiple algorithms to forecast business metrics, market trends, and provide actionable AI-driven insights for decision making.',
-      image: 'https://images.unsplash.com/photo-1581092583537-20d51b4b4f1b?q=80&w=2070&auto=format&fit=crop',
-      tags: ['Predictive Analytics', 'Machine Learning', 'Time Series', 'Business Intelligence'],
-      link: '#',
-      github: '#',
-    },
   ];
   
   return (
