@@ -7,6 +7,36 @@ import { Briefcase, Calendar, ExternalLink } from 'lucide-react';
 const Ventures: React.FC = () => {
   const { t } = useLanguage();
   
+  const ventures = [
+    {
+      title: 'RamaroFish',
+      role: 'Founder & CEO',
+      description: 'Company specializing in fish farming (tilapia, carp). Development of smart solutions (connected sensors, AI for growth monitoring).',
+      image: '/lovable-uploads/a41ff3ba-c301-47f2-9436-0ee57d4d3b89.png',
+      year: '2024',
+      status: 'current',
+      link: '#'
+    },
+    {
+      title: 'SMART KAJY',
+      role: 'Project Coordinator & Co-founder',
+      description: 'IT club at the Faculty of Science, University of Antananarivo focused on technology innovation and student development.',
+      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop',
+      year: '2023',
+      status: 'advisor',
+      link: '#'
+    },
+    {
+      title: 'Char\'Bio Project',
+      role: 'Project Leader',
+      description: 'Project focused on converting organic waste into eco-friendly charcoal at Menafify Ambohipo Tselatra.',
+      image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2071&auto=format&fit=crop',
+      year: '2022',
+      status: 'completed',
+      link: '#'
+    }
+  ];
+  
   return (
     <AnimatedSection id="ventures" className="bg-background clip-path-slant-reverse">
       <div className="text-center mb-16">
@@ -22,7 +52,7 @@ const Ventures: React.FC = () => {
         {/* Timeline line */}
         <div className="absolute top-0 bottom-0 left-[30px] md:left-1/2 w-0.5 bg-border z-0" />
         
-        {t.ventures.each_venture.map((venture, index) => (
+        {ventures.map((venture, index) => (
           <div 
             key={index} 
             className="relative z-10 flex flex-col md:flex-row mb-16 md:even:flex-row-reverse"
@@ -49,10 +79,12 @@ const Ventures: React.FC = () => {
                       inline-flex items-center px-3 py-1 rounded-full text-xs font-medium
                       ${venture.status === 'current' ? 'bg-green-500/10 text-green-500' : 
                       venture.status === 'acquired' ? 'bg-blue-500/10 text-blue-500' : 
+                      venture.status === 'completed' ? 'bg-purple-500/10 text-purple-500' :
                       'bg-secondary text-foreground'}
                     `}>
                       {venture.status === 'current' ? t.ventures.current : 
-                       venture.status === 'acquired' ? 'Acquired' : 'Advisor'}
+                       venture.status === 'acquired' ? 'Acquired' : 
+                       venture.status === 'completed' ? 'Completed' : 'Advisor'}
                     </span>
                   </div>
                 </div>
