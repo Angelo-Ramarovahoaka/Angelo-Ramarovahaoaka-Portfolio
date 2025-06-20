@@ -1,4 +1,5 @@
 
+
 import * as React from 'react';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
@@ -21,46 +22,67 @@ const About: React.FC = () => {
 
   const certifications = [
     {
-      title: 'PCA Clustering Analysis - Project 1',
-      organization: 'Machine Learning Research',
-      date: '2024',
-      description: 'Principal Component Analysis with K-means clustering visualization showing data dimensionality reduction and pattern recognition techniques.',
-      image: '/lovable-uploads/3c6c8b80-14ef-46b4-ae5f-36711d5e82c7.png'
+      title: 'Understanding ChatGPT',
+      organization: 'DataCamp',
+      date: 'May 2025',
+      description: 'Comprehensive course covering the fundamentals of ChatGPT and Large Language Models, exploring their capabilities and applications in AI-driven solutions.',
+      image: '/lovable-uploads/907906e8-9a9a-4956-86a7-453b0edd34bf.png'
     },
     {
-      title: 'PCA Clustering Analysis - Project 2',
-      organization: 'Data Science Portfolio',
-      date: '2024',
-      description: 'Advanced clustering analysis demonstrating proficiency in unsupervised learning algorithms and data visualization techniques.',
-      image: '/lovable-uploads/562b3a34-fa94-489f-a49a-dce9e7c3dd91.png'
-    },
-    {
-      title: 'PCA Clustering Analysis - Project 3',
-      organization: 'AI Research Project',
-      date: '2024',
-      description: 'Comprehensive PCA implementation showcasing expertise in statistical learning methods and cluster analysis for pattern discovery.',
-      image: '/lovable-uploads/29e5ee32-9af0-4413-a797-46b26f005050.png'
-    },
-    {
-      title: 'AWS Certified Solutions Architect',
+      title: 'SQL Intermediate',
       organization: 'Sololearn',
-      date: '2023',
-      description: 'Professional certification for designing distributed systems on AWS.',
-      image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop'
+      date: 'February 2025',
+      description: 'Advanced SQL certification demonstrating proficiency in complex database queries, joins, and data manipulation techniques for effective data management.',
+      image: '/lovable-uploads/5eb2749d-0bbf-4830-92f3-460776eb2ea0.png'
     },
     {
-      title: 'TensorFlow Developer Certificate',
-      organization: 'Google',
-      date: '2022',
-      description: 'Certification in building and training neural networks using TensorFlow.',
-      image: 'https://images.unsplash.com/photo-1677442135743-d0269590c653?q=80&w=2070&auto=format&fit=crop'
+      title: 'SEO with AI',
+      organization: 'Sololearn',
+      date: 'March 2025',
+      description: 'Certification in modern SEO techniques enhanced with Artificial Intelligence tools, covering optimization strategies and AI-driven content analysis.',
+      image: '/lovable-uploads/b12d1f43-d739-40dc-8a82-73a5a059dcb6.png'
     },
     {
-      title: 'Professional Data Engineer',
-      organization: 'Google Cloud',
-      date: '2022',
-      description: 'Certification for designing and building data processing systems on Google Cloud.',
-      image: 'https://images.unsplash.com/photo-1649180556628-9ba704115795?q=80&w=2062&auto=format&fit=crop'
+      title: 'Prompt Engineering',
+      organization: 'Sololearn',
+      date: 'May 2025',
+      description: 'Specialized certification in prompt engineering techniques for AI systems, focusing on effective communication with language models and optimization strategies.',
+      image: '/lovable-uploads/f51bd0b9-3be9-4a89-810a-1d8f923a6ad4.png'
+    },
+    {
+      title: 'Joining Data with pandas',
+      organization: 'DataCamp',
+      date: 'June 2025',
+      description: 'Advanced data science certification focusing on data manipulation and joining techniques using pandas library for comprehensive data analysis workflows.',
+      image: '/lovable-uploads/b95bddc3-464a-45be-8a8b-65bab6190ea1.png'
+    },
+    {
+      title: 'Introduction to Statistics in Python',
+      organization: 'DataCamp',
+      date: 'June 2025',
+      description: 'Statistical analysis certification covering fundamental statistical concepts and their implementation in Python for data science applications.',
+      image: '/lovable-uploads/6d6a6107-aa8f-4ede-b9f8-1ee3d79e0dbc.png'
+    },
+    {
+      title: 'Introduction to Data Visualization with Seaborn',
+      organization: 'DataCamp',
+      date: 'June 2025',
+      description: 'Data visualization certification focusing on creating compelling visual representations of data using Seaborn library for effective data storytelling.',
+      image: '/lovable-uploads/f35075f4-650c-4a21-ad87-fdcda30ae74f.png'
+    },
+    {
+      title: 'Intermediate Python',
+      organization: 'DataCamp',
+      date: 'May 2025',
+      description: 'Advanced Python programming certification covering intermediate concepts, data structures, and programming techniques for professional development.',
+      image: '/lovable-uploads/ddfdbb05-ebab-49fc-b4b5-0b27035a71e9.png'
+    },
+    {
+      title: 'Data Manipulation with pandas',
+      organization: 'DataCamp',
+      date: 'June 2025',
+      description: 'Comprehensive certification in data manipulation techniques using pandas, covering data cleaning, transformation, and analysis for data science projects.',
+      image: '/lovable-uploads/5281ec1c-ff06-499e-afcd-99a77e4ff727.png'
     }
   ];
   
@@ -148,7 +170,12 @@ const About: React.FC = () => {
                 <div className="w-12 h-12 flex items-center justify-center rounded-full bg-primary/10">
                   <Award className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="text-2xl font-display font-bold">{t.about.certifications}</h3>
+                <div>
+                  <h3 className="text-2xl font-display font-bold">{t.about.certifications}</h3>
+                  <p className="text-muted-foreground mt-1">
+                    Professional certifications in AI, Machine Learning, Data Science, and Programming
+                  </p>
+                </div>
               </div>
               
               <div className="space-y-8">
@@ -232,3 +259,4 @@ const About: React.FC = () => {
 };
 
 export default About;
+
