@@ -15,7 +15,7 @@ const Ventures: React.FC = () => {
       image: '/lovable-uploads/a41ff3ba-c301-47f2-9436-0ee57d4d3b89.png',
       year: '2024',
       status: 'current',
-      link: '#'
+      link: 'https://ramarofish.vercel.app/'
     }
   ];
   
