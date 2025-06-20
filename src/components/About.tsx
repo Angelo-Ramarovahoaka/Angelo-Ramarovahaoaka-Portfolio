@@ -1,3 +1,4 @@
+
 import * as React from 'react';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
@@ -20,6 +21,27 @@ const About: React.FC = () => {
 
   const certifications = [
     {
+      title: 'PCA Clustering Analysis - Project 1',
+      organization: 'Machine Learning Research',
+      date: '2024',
+      description: 'Principal Component Analysis with K-means clustering visualization showing data dimensionality reduction and pattern recognition techniques.',
+      image: '/lovable-uploads/3c6c8b80-14ef-46b4-ae5f-36711d5e82c7.png'
+    },
+    {
+      title: 'PCA Clustering Analysis - Project 2',
+      organization: 'Data Science Portfolio',
+      date: '2024',
+      description: 'Advanced clustering analysis demonstrating proficiency in unsupervised learning algorithms and data visualization techniques.',
+      image: '/lovable-uploads/562b3a34-fa94-489f-a49a-dce9e7c3dd91.png'
+    },
+    {
+      title: 'PCA Clustering Analysis - Project 3',
+      organization: 'AI Research Project',
+      date: '2024',
+      description: 'Comprehensive PCA implementation showcasing expertise in statistical learning methods and cluster analysis for pattern discovery.',
+      image: '/lovable-uploads/29e5ee32-9af0-4413-a797-46b26f005050.png'
+    },
+    {
       title: 'AWS Certified Solutions Architect',
       organization: 'Sololearn',
       date: '2023',
@@ -39,27 +61,6 @@ const About: React.FC = () => {
       date: '2022',
       description: 'Certification for designing and building data processing systems on Google Cloud.',
       image: 'https://images.unsplash.com/photo-1649180556628-9ba704115795?q=80&w=2062&auto=format&fit=crop'
-    },
-    {
-      title: 'Microsoft Certified: Azure AI Engineer Associate',
-      organization: 'Microsoft',
-      date: '2021',
-      description: 'Professional certification for implementing Azure AI solutions.',
-      image: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop'
-    },
-    {
-      title: 'Deep Learning Specialization',
-      organization: 'DeepLearning.AI',
-      date: '2020',
-      description: 'Advanced specialization in deep learning techniques and applications.',
-      image: 'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop'
-    },
-    {
-      title: 'Machine Learning Engineer Nanodegree',
-      organization: 'Udacity',
-      date: '2019',
-      description: 'Comprehensive program covering the fundamentals of machine learning.',
-      image: 'https://images.unsplash.com/photo-1656268164012-119304af0c69?q=80&w=2011&auto=format&fit=crop'
     }
   ];
   
