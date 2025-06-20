@@ -1,4 +1,3 @@
-
 import * as React from 'react';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
@@ -12,10 +11,11 @@ const About: React.FC = () => {
   const [expandedCertificate, setExpandedCertificate] = useState<number | null>(null);
   
   const skills = [
-    'System Architecture','Docker','linux',
-    'Software Engineering', 'Frontend Development','Backend Development','React','NestJs',  'SEO Optimization','c++',
-    'Machine Learning', 'Deep Learning', 'Python', 'TensorFlow', 'sklearn',
-    'Product Strategy', 'Business Development', 'Entrepreneurship'
+    'Artificial Intelligence', 'Machine Learning', 'Deep Learning', 'Python', 'TensorFlow', 'PyTorch',
+    'Data Science', 'Computer Vision', 'Natural Language Processing', 'Neural Networks',
+    'System Architecture', 'Docker', 'Linux', 'React', 'NestJs', 'Node.js',
+    'Software Engineering', 'Frontend Development', 'Backend Development', 'SEO Optimization', 'C++',
+    'Product Strategy', 'Business Development', 'Entrepreneurship', 'Startup Management'
   ];
 
   const certifications = [
@@ -77,7 +77,7 @@ const About: React.FC = () => {
               {t.about.title}
             </h2>
             <p className="text-muted-foreground text-balance leading-relaxed mb-8">
-              {t.about.description}
+              Passionate AI & Machine Learning specialist with a strong entrepreneurial mindset. I focus on developing intelligent systems and innovative solutions that solve real-world problems. My expertise spans from deep learning algorithms to building scalable AI applications and leading tech ventures.
             </p>
             
             <div className="mt-8">

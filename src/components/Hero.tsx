@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in" style={{ animationDelay: '300ms' }}>
-          {t.hero.role}
+          AI & Machine Learning Specialist | Entrepreneur & Innovator
         </p>
         
         <a 

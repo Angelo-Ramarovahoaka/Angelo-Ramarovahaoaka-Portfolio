@@ -10,6 +10,22 @@ const Projects: React.FC = () => {
   
   const projects = [
     {
+      title: 'RamaroFish',
+      description: 'Smart aquaculture solution specializing in fish farming (tilapia, carp) with IoT sensors for water quality monitoring and AI-powered growth tracking systems.',
+      image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=2070&auto=format&fit=crop',
+      tags: ['IoT', 'AI Monitoring', 'Aquaculture', 'Sensors'],
+      link: '#',
+      github: 'https://github.com/Kimbohy/ramaroFish',
+    },
+    {
+      title: 'Water Quality Test',
+      description: 'Advanced water quality analysis system using machine learning algorithms to predict and monitor water parameters for environmental and industrial applications.',
+      image: 'https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?q=80&w=2070&auto=format&fit=crop',
+      tags: ['Machine Learning', 'Environmental Monitoring', 'Data Analysis', 'Python'],
+      link: '#',
+      github: 'https://github.com/Angelo-Ramarovahoaka/WaterQuality',
+    },
+    {
       title: 'NeuralTalk',
       description: 'A conversational AI platform that utilizes advanced natural language processing to provide human-like interactions for customer support and personal assistants.',
       image: 'https://images.unsplash.com/photo-1677442135146-8b623de639c1?q=80&w=2070&auto=format&fit=crop',
@@ -18,26 +34,10 @@ const Projects: React.FC = () => {
       github: '#',
     },
     {
-      title: 'VisionQuest',
-      description: 'Computer vision system that can identify and track objects in real-time video streams with high accuracy, designed for security and retail analytics applications.',
-      image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2065&auto=format&fit=crop',
-      tags: ['Computer Vision', 'Object Detection', 'Edge Computing'],
-      link: '#',
-      github: '#',
-    },
-    {
-      title: 'PredictFlow',
-      description: 'Predictive analytics framework that combines multiple machine learning models to forecast business metrics and provide actionable insights.',
+      title: 'Smart Predictive Analytics',
+      description: 'Machine learning platform that combines multiple algorithms to forecast business metrics, market trends, and provide actionable AI-driven insights for decision making.',
       image: 'https://images.unsplash.com/photo-1581092583537-20d51b4b4f1b?q=80&w=2070&auto=format&fit=crop',
-      tags: ['Predictive Analytics', 'Time Series', 'Ensemble Models'],
-      link: '#',
-      github: '#',
-    },
-    {
-      title: 'AutoML Platform',
-      description: 'Automated machine learning platform that enables non-technical users to build and deploy ML models without coding experience.',
-      image: 'https://images.unsplash.com/photo-1580894908361-967195033215?q=80&w=2070&auto=format&fit=crop',
-      tags: ['AutoML', 'UI/UX', 'Model Deployment'],
+      tags: ['Predictive Analytics', 'Machine Learning', 'Time Series', 'Business Intelligence'],
       link: '#',
       github: '#',
     },
@@ -100,6 +100,8 @@ const Projects: React.FC = () => {
                   href={project.github}
                   className="p-2 rounded-full bg-secondary/80 text-foreground hover:bg-secondary transition-colors"
                   aria-label="GitHub Repository"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Github size={18} />
                 </a>

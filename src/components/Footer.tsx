@@ -4,7 +4,6 @@ import { useLanguage } from '@/context/LanguageContext';
 import { ArrowUp } from 'lucide-react';
 import bgImg from '../../public/image/bg.png';
 
-
 const Footer: React.FC = () => {
   const { t } = useLanguage();
   
@@ -27,7 +26,7 @@ const Footer: React.FC = () => {
                 Angelo R.
               </a>
               <p className="mt-2 text-sm text-muted-foreground max-w-md">
-                AI & Machine Learning Enthusiast | Entrepreneur & Innovator
+                AI & Machine Learning Specialist | Entrepreneur & Innovator
               </p>
             </div>
           </div>
@@ -55,25 +54,27 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-sm font-semibold mb-4">{t.nav.projects}</h4>
             <ul className="space-y-2">
+              <li><a href="#" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">RamaroFish</a></li>
+              <li><a href="#" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">Water Quality Test</a></li>
               <li><a href="#" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">NeuralTalk</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">VisionQuest</a></li>
             </ul>
           </div>
           
           <div> 
-            <h4 className="text-sm font-semibold mb-4">{t.nav.ventures}</h4>
+            <h4 className="text-sm font-semibold mb-4">Specialties</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">RamaroFish</a></li>
+              <li><span className="text-sm text-muted-foreground">Artificial Intelligence</span></li>
+              <li><span className="text-sm text-muted-foreground">Machine Learning</span></li>
+              <li><span className="text-sm text-muted-foreground">Entrepreneurship</span></li>
             </ul>
           </div>
           
           <div>
             <h4 className="text-sm font-semibold mb-4">Connect</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">LinkedIn</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">Twitter</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">GitHub</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">Medium</a></li>
+              <li><a href="https://www.linkedin.com/in/angelo-ramarovahoaka-058389332/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">LinkedIn</a></li>
+              <li><a href="https://wa.me/261342034496" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">WhatsApp</a></li>
+              <li><a href="https://github.com/Angelo-Ramarovahoaka" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">GitHub</a></li>
             </ul>
           </div>
         </div>
