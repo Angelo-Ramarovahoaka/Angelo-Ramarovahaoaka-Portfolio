@@ -1,4 +1,3 @@
-
 import * as React from 'react';
 import { createContext, useContext, useEffect, useState } from 'react';
 
@@ -20,7 +19,7 @@ const translationsData = {
     },
     about: {
       title: 'About Me',
-      subtitle: 'Software Engineer & AI Enthusiast',
+      subtitle: 'ML & AI Enthusiast | Entrepreneurship',
       description: 'Passionate AI & Machine Learning specialist with a strong entrepreneurial mindset. I focus on developing intelligent systems and innovative solutions that solve real-world problems. My expertise spans from deep learning algorithms to building scalable AI applications and leading tech ventures.',
       skills: 'Skills',
       experience: 'Experience',
@@ -50,7 +49,7 @@ const translationsData = {
       }
     },
     projects: {
-      title: 'AI & ML | WEB Projects',
+      title: 'Key Projects',
       subtitle: 'Exploring the Frontiers of Artificial Intelligence',
       viewProject: 'View Project',
       waterQuality: {
@@ -118,7 +117,7 @@ const translationsData = {
     },
     about: {
       title: 'À Propos de Moi',
-      subtitle: 'Ingénieur Logiciel & Passionné d\'IA',
+      subtitle: 'Passionné ML & IA | Entrepreneuriat',
       description: 'Spécialiste passionné en IA et Machine Learning avec un fort esprit entrepreneurial. Je me concentre sur le développement de systèmes intelligents et de solutions innovantes qui résolvent des problèmes concrets. Mon expertise s\'étend des algorithmes d\'apprentissage profond à la création d\'applications IA évolutives et à la direction d\'entreprises technologiques.',
       skills: 'Compétences',
       experience: 'Expérience',
@@ -148,7 +147,7 @@ const translationsData = {
       }
     },
     projects: {
-      title: 'Projets IA & ML | WEB',
+      title: 'Projets Clés',
       subtitle: 'Explorer les Frontières de l\'Intelligence Artificielle',
       viewProject: 'Voir le Projet',
       waterQuality: {
