@@ -28,6 +28,26 @@ const translationsData = {
       certificationsSubtitle: 'Professional certifications in AI, Machine Learning, Data Science, and Programming',
       showMore: 'Show More',
       showLess: 'Show Less',
+      experienceItems: {
+        ramaroFish: {
+          title: 'Founder & CEO',
+          company: 'RamaroFish',
+          period: '2024 – Present',
+          description: 'Company specializing in fish farming (tilapia, carp). Development of smart solutions (connected sensors, AI for growth monitoring).'
+        },
+        smartKajy: {
+          title: 'Project Coordinator & Co-founder',
+          company: 'SMART KAJY',
+          period: '2023 - 2024',
+          description: 'IT club at the Faculty of Science, University of Antananarivo.'
+        },
+        charBio: {
+          title: 'Project Leader - Char\'Bio',
+          company: 'Menafify Ambohipo Tselatra',
+          period: '2022 - 2023',
+          description: 'Project focused on converting organic waste into eco-friendly charcoal.'
+        }
+      }
     },
     projects: {
       title: 'AI & ML | WEB Projects',
@@ -106,6 +126,26 @@ const translationsData = {
       certificationsSubtitle: 'Certifications professionnelles en IA, Machine Learning, Science des Données et Programmation',
       showMore: 'Voir Plus',
       showLess: 'Voir Moins',
+      experienceItems: {
+        ramaroFish: {
+          title: 'Fondateur & PDG',
+          company: 'RamaroFish',
+          period: '2024 – Présent',
+          description: 'Entreprise spécialisée dans l\'élevage de poissons (tilapia, carpe). Développement de solutions intelligentes (capteurs connectés, IA pour le suivi de croissance).'
+        },
+        smartKajy: {
+          title: 'Coordinateur de Projet & Co-fondateur',
+          company: 'SMART KAJY',
+          period: '2023 - 2024',
+          description: 'Club informatique de la Faculté des Sciences, Université d\'Antananarivo.'
+        },
+        charBio: {
+          title: 'Chef de Projet - Char\'Bio',
+          company: 'Menafify Ambohipo Tselatra',
+          period: '2022 - 2023',
+          description: 'Projet axé sur la conversion des déchets organiques en charbon écologique.'
+        }
+      }
     },
     projects: {
       title: 'Projets IA & ML | WEB',

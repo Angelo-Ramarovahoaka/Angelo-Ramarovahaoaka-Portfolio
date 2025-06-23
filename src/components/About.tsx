@@ -130,34 +130,34 @@ const About: React.FC = () => {
               <div className="space-y-8">
                 <div className="glass-card p-6 rounded-xl">
                   <div className="flex justify-between items-start mb-2">
-                    <h4 className="font-semibold">Founder & CEO</h4>
-                    <span className="text-sm text-muted-foreground">2024 – Present</span>
+                    <h4 className="font-semibold">{t.about.experienceItems.ramaroFish.title}</h4>
+                    <span className="text-sm text-muted-foreground">{t.about.experienceItems.ramaroFish.period}</span>
                   </div>
-                  <h5 className="text-primary mb-3">RamaroFish</h5>
+                  <h5 className="text-primary mb-3">{t.about.experienceItems.ramaroFish.company}</h5>
                   <p className="text-sm text-muted-foreground">
-                    Company specializing in fish farming (tilapia, carp). Development of smart solutions (connected sensors, AI for growth monitoring).
+                    {t.about.experienceItems.ramaroFish.description}
                   </p>
                 </div>
                 
                 <div className="glass-card p-6 rounded-xl">
                   <div className="flex justify-between items-start mb-2">
-                    <h4 className="font-semibold">Project Coordinator & Co-founder</h4>
-                    <span className="text-sm text-muted-foreground">2023 - 2024</span>
+                    <h4 className="font-semibold">{t.about.experienceItems.smartKajy.title}</h4>
+                    <span className="text-sm text-muted-foreground">{t.about.experienceItems.smartKajy.period}</span>
                   </div>
-                  <h5 className="text-primary mb-3">SMART KAJY</h5>
+                  <h5 className="text-primary mb-3">{t.about.experienceItems.smartKajy.company}</h5>
                   <p className="text-sm text-muted-foreground">
-                    IT club at the Faculty of Science, University of Antananarivo.
+                    {t.about.experienceItems.smartKajy.description}
                   </p>
                 </div>
                 
                 <div className="glass-card p-6 rounded-xl">
                   <div className="flex justify-between items-start mb-2">
-                    <h4 className="font-semibold">Project Leader - Char'Bio</h4>
-                    <span className="text-sm text-muted-foreground">2022 - 2023</span>
+                    <h4 className="font-semibold">{t.about.experienceItems.charBio.title}</h4>
+                    <span className="text-sm text-muted-foreground">{t.about.experienceItems.charBio.period}</span>
                   </div>
-                  <h5 className="text-primary mb-3">Menafify Ambohipo Tselatra</h5>
+                  <h5 className="text-primary mb-3">{t.about.experienceItems.charBio.company}</h5>
                   <p className="text-sm text-muted-foreground">
-                    Project focused on converting organic waste into eco-friendly charcoal.
+                    {t.about.experienceItems.charBio.description}
                   </p>
                 </div>
               </div>
