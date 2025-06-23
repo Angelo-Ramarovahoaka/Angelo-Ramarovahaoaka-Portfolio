@@ -1,9 +1,8 @@
-
 import React, { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import AnimatedSection from './AnimatedSection';
 import { Mail, MapPin, Phone, Send } from 'lucide-react';
-import { useToast } from '@/components/ui/use-toast';
+import { useToast } from '@/hooks/use-toast';
 
 const Contact: React.FC = () => {
   const { t } = useLanguage();
@@ -123,7 +122,7 @@ const Contact: React.FC = () => {
         
         <div className="space-y-8">
           <div className='flex flex-col justify-center'>
-            <h3 className="text-xl font-bold mb-6">Contact Information</h3>
+            <h3 className="text-xl font-bold mb-6">{t.contact.contactInfo}</h3>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
@@ -163,14 +162,14 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Location</p>
-                  <p className="text-foreground">Antananarivo, Madagascar</p>
+                  <p className="text-foreground">{t.contact.location}</p>
                 </div>
               </div>
             </div>
           </div>
           
           <div>
-            <h3 className="text-xl font-bold mb-6">Connect With Me</h3>
+            <h3 className="text-xl font-bold mb-6">{t.contact.connectWithMe}</h3>
             <div className="flex gap-4">
               <a 
                 href="https://www.linkedin.com/in/angelo-ramarovahoaka-058389332/" 

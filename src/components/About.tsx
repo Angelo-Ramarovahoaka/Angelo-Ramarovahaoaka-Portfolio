@@ -1,5 +1,3 @@
-
-
 import * as React from 'react';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
@@ -100,7 +98,7 @@ const About: React.FC = () => {
               {t.about.title}
             </h2>
             <p className="text-muted-foreground text-balance leading-relaxed mb-8">
-              Passionate AI & Machine Learning specialist with a strong entrepreneurial mindset. I focus on developing intelligent systems and innovative solutions that solve real-world problems. My expertise spans from deep learning algorithms to building scalable AI applications and leading tech ventures.
+              {t.about.description}
             </p>
             
             <div className="mt-8">
@@ -173,7 +171,7 @@ const About: React.FC = () => {
                 <div>
                   <h3 className="text-2xl font-display font-bold">{t.about.certifications}</h3>
                   <p className="text-muted-foreground mt-1">
-                    Professional certifications in AI, Machine Learning, Data Science, and Programming
+                    {t.about.certificationsSubtitle}
                   </p>
                 </div>
               </div>
@@ -259,4 +257,3 @@ const About: React.FC = () => {
 };
 
 export default About;
-

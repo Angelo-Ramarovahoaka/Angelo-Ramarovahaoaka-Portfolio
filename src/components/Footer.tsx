@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 m-10 pb-10 place-items-start justify-center">
           <div>
-            <h4 className="text-sm font-semibold mb-4">Navigation</h4>
+            <h4 className="text-sm font-semibold mb-4">{t.footer.navigation}</h4>
             <ul className="space-y-2">
               <li><a href="#about" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">{t.nav.about}</a></li>
               <li><a href="#projects" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">{t.nav.projects}</a></li>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
           </div>
           
           <div> 
-            <h4 className="text-sm font-semibold mb-4">Specialties</h4>
+            <h4 className="text-sm font-semibold mb-4">{t.footer.specialties}</h4>
             <ul className="space-y-2">
               <li><span className="text-sm text-muted-foreground">Artificial Intelligence</span></li>
               <li><span className="text-sm text-muted-foreground">Machine Learning</span></li>
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h4 className="text-sm font-semibold mb-4">Connect</h4>
+            <h4 className="text-sm font-semibold mb-4">{t.footer.connect}</h4>
             <ul className="space-y-2">
               <li><a href="https://www.linkedin.com/in/angelo-ramarovahoaka-058389332/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">LinkedIn</a></li>
               <li><a href="https://wa.me/261342034496" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-[#ff014f] transition-colors">WhatsApp</a></li>
@@ -85,9 +85,9 @@ const Footer: React.FC = () => {
           </p>
           
           <div className="flex items-center space-x-6">
-            <a href="#" className="text-xs text-muted-foreground hover:text-[#ff014f] transition-colors">Privacy Policy</a>
-            <a href="#" className="text-xs text-muted-foreground hover:text-[#ff014f] transition-colors">Terms of Service</a>
-            <a href="#" className="text-xs text-muted-foreground hover:text-[#ff014f] transition-colors">Sitemap</a>
+            <a href="#" className="text-xs text-muted-foreground hover:text-[#ff014f] transition-colors">{t.footer.privacyPolicy}</a>
+            <a href="#" className="text-xs text-muted-foreground hover:text-[#ff014f] transition-colors">{t.footer.termsOfService}</a>
+            <a href="#" className="text-xs text-muted-foreground hover:text-[#ff014f] transition-colors">{t.footer.sitemap}</a>
           </div>
         </div>
       </div>
