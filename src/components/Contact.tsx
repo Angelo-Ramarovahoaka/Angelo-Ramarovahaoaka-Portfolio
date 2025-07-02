@@ -1,8 +1,10 @@
+
 import React, { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import AnimatedSection from './AnimatedSection';
 import { Mail, MapPin, Phone, Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import emailjs from '@emailjs/browser';
 
 const Contact: React.FC = () => {
   const { t } = useLanguage();
@@ -21,12 +23,29 @@ const Contact: React.FC = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
   
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      // EmailJS configuration
+      const serviceId = 'service_pb459hr';
+      const templateId = 'template_5lg4qj9';
+      const publicKey = 'lRxgMFfy4G11XDW06';
+      
+      // Send email using EmailJS
+      await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+          to_name: 'Angelo',
+        },
+        publicKey
+      );
+      
       toast({
         title: t.contact.success,
         description: `Thank you ${formData.name}, I'll get back to you soon!`,
@@ -38,8 +57,16 @@ const Contact: React.FC = () => {
         message: '',
       });
       
+    } catch (error) {
+      console.error('EmailJS error:', error);
+      toast({
+        title: t.contact.error,
+        description: 'Please try again later.',
+        variant: 'destructive',
+      });
+    } finally {
       setIsSubmitting(false);
-    }, 1500);
+    }
   };
   
   return (
