@@ -33,8 +33,8 @@ const Projects: React.FC = () => {
       description: 'Modern clothing e-commerce mobile app built with React Native and Expo Go. Features include product catalog, user authentication, and intuitive browsing experience.',
       image: '/lovable-uploads/e0e833d3-a04f-447a-a001-899073bcf370.png',
       tags: ['React Native', 'Expo Go', 'E-commerce', 'Mobile App', 'Fashion', 'Authentication'],
-      link: '#',
-      github: '#',
+      link: 'https://drive.google.com/file/d/1Y7civvWzBp_xq3V7RwskAeEh5aRtuwlt/view?usp=drive_link',
+      github: 'https://github.com/Angelo-Ramarovahoaka/ClothingStore',
       category: 'App'
     },
     {
