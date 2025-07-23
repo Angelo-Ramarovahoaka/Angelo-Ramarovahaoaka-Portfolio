@@ -10,12 +10,31 @@ const About: React.FC = () => {
   const [showAllCertifications, setShowAllCertifications] = useState(false);
   const [expandedCertificate, setExpandedCertificate] = useState<number | null>(null);
   
-  const skills = [
-    'Artificial Intelligence', 'Machine Learning', 'Deep Learning', 'Python', 'TensorFlow', 'PyTorch',
-    'Data Science', 'Computer Vision', 'Natural Language Processing', 'Neural Networks',
-    'System Architecture', 'Docker', 'Linux', 'React', 'NestJs', 'Node.js',
-    'Software Engineering', 'Frontend Development', 'Backend Development', 'SEO Optimization', 'C++',
-    'Product Strategy', 'Business Development', 'Entrepreneurship', 'Startup Management'
+  const skillCategories = [
+    {
+      title: 'AI & Machine Learning',
+      skills: ['Artificial Intelligence', 'Machine Learning', 'Deep Learning', 'TensorFlow', 'PyTorch', 'Data Science', 'Computer Vision', 'Natural Language Processing', 'Neural Networks']
+    },
+    {
+      title: 'Programming & Development',
+      skills: ['Python', 'C++', 'JavaScript', 'TypeScript', 'React', 'React Native', 'Node.js', 'NestJS', 'Frontend Development', 'Backend Development']
+    },
+    {
+      title: 'Mobile Development',
+      skills: ['React Native', 'Expo Go', 'Mobile Apps', 'Cross-platform Development']
+    },
+    {
+      title: 'Cloud & DevOps',
+      skills: ['Docker', 'Linux', 'System Architecture', 'Supabase', 'Netlify', 'Vercel', 'Cloud Deployment']
+    },
+    {
+      title: 'Tools & Platforms',
+      skills: ['Lovable', 'SEO Optimization', 'Git', 'Software Engineering']
+    },
+    {
+      title: 'Business & Strategy',
+      skills: ['Product Strategy', 'Business Development', 'Entrepreneurship', 'Startup Management']
+    }
   ];
 
   const certifications = [
@@ -102,15 +121,22 @@ const About: React.FC = () => {
             </p>
             
             <div className="mt-8">
-              <h3 className="text-lg font-semibold mb-4">{t.about.skills}</h3>
-              <div className="flex flex-wrap gap-2">
-                {skills.map((skill, index) => (
-                  <span 
-                    key={index} 
-                    className="px-3 py-1 rounded-full text-sm bg-secondary text-foreground"
-                  >
-                    {skill}
-                  </span>
+              <h3 className="text-lg font-semibold mb-6">{t.about.skills}</h3>
+              <div className="space-y-6">
+                {skillCategories.map((category, categoryIndex) => (
+                  <div key={categoryIndex}>
+                    <h4 className="text-sm font-medium text-primary mb-3">{category.title}</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {category.skills.map((skill, skillIndex) => (
+                        <span 
+                          key={skillIndex} 
+                          className="px-3 py-1 rounded-full text-xs bg-secondary text-foreground"
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>
