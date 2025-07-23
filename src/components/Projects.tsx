@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
       tags: ['AI', 'Machine Learning', 'IoT', 'Water Quality', 'Public Health', 'Environmental Monitoring', 'Smart Sensors', 'Sustainability', 'Edge Computing'],
       link: 'https://github.com/Angelo-Ramarovahoaka/WaterQuality',
       github: 'https://github.com/Angelo-Ramarovahoaka/WaterQuality',
-      category: 'Other'
+      category: 'Web'
     },
     {
       title: t.projects.ramaroFish.title,
@@ -27,6 +27,15 @@ const Projects: React.FC = () => {
       link: 'https://ramaro-fish.vercel.app/',
       github: 'https://github.com/Kimbohy/ramaroFish',
       category: 'Web'
+    },
+    {
+      title: 'ClothStore Mobile',
+      description: 'Modern clothing e-commerce mobile app built with React Native and Expo Go. Features include product catalog, shopping cart, user authentication, and seamless payment integration.',
+      image: '/lovable-uploads/f35075f4-650c-4a21-ad87-fdcda30ae74f.png',
+      tags: ['React Native', 'Expo Go', 'E-commerce', 'Mobile App', 'Fashion', 'Shopping Cart', 'Authentication', 'Payment Integration'],
+      link: '#',
+      github: '#',
+      category: 'App'
     },
     {
       title: t.projects.charBio.title,
