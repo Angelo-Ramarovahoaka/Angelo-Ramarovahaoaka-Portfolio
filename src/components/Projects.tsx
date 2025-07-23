@@ -30,9 +30,9 @@ const Projects: React.FC = () => {
     },
     {
       title: 'ClothStore Mobile',
-      description: 'Modern clothing e-commerce mobile app built with React Native and Expo Go. Features include product catalog, shopping cart, user authentication, and seamless payment integration.',
-      image: '/lovable-uploads/f35075f4-650c-4a21-ad87-fdcda30ae74f.png',
-      tags: ['React Native', 'Expo Go', 'E-commerce', 'Mobile App', 'Fashion', 'Shopping Cart', 'Authentication', 'Payment Integration'],
+      description: 'Modern clothing e-commerce mobile app built with React Native and Expo Go. Features include product catalog, user authentication, and intuitive browsing experience.',
+      image: '/lovable-uploads/e0e833d3-a04f-447a-a001-899073bcf370.png',
+      tags: ['React Native', 'Expo Go', 'E-commerce', 'Mobile App', 'Fashion', 'Authentication'],
       link: '#',
       github: '#',
       category: 'App'
