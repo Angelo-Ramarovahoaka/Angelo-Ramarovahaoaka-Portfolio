@@ -39,6 +39,13 @@ const About: React.FC = () => {
 
   const certifications = [
     {
+      title: 'Data Analyst Associate',
+      organization: 'DataCamp',
+      date: 'Aug 2025',
+      description: 'Professional certification demonstrating comprehensive data analysis skills, including data manipulation, statistical analysis, and visualization techniques for business insights.',
+      image: '/lovable-uploads/fd2a15e0-b4b1-4557-85b4-a83be51b31d2.png'
+    },
+    {
       title: 'Understanding Data Visualization',
       organization: 'DataCamp',
       date: 'Aug 2025',
