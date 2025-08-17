@@ -39,6 +39,34 @@ const About: React.FC = () => {
 
   const certifications = [
     {
+      title: 'Understanding Data Visualization',
+      organization: 'DataCamp',
+      date: 'Aug 2025',
+      description: 'Comprehensive certification covering fundamental concepts of data visualization, exploring effective techniques for creating compelling visual representations of data.',
+      image: '/lovable-uploads/44e3b9dc-b463-4d91-aac0-009372b7fda3.png'
+    },
+    {
+      title: 'Exploratory Data Analysis in SQL',
+      organization: 'DataCamp',
+      date: 'Aug 2025',
+      description: 'Advanced SQL certification focusing on exploratory data analysis techniques, covering complex queries and data investigation methodologies.',
+      image: '/lovable-uploads/556592f5-e2bd-41a2-9094-8f4fe8a5e8e2.png'
+    },
+    {
+      title: 'Data-Driven Decision Making in SQL',
+      organization: 'DataCamp',
+      date: 'Aug 2025',
+      description: 'Strategic certification covering data-driven decision making processes using SQL, focusing on analytical thinking and business intelligence.',
+      image: '/lovable-uploads/878d94a1-4bf1-46f3-be06-de7d5de0bda9.png'
+    },
+    {
+      title: 'Data Communication Concepts',
+      organization: 'DataCamp',
+      date: 'Aug 2025',
+      description: 'Specialized certification in data communication strategies, covering effective presentation of insights and storytelling with data.',
+      image: '/lovable-uploads/58022062-024a-4579-a3d5-a1163c9d15f5.png'
+    },
+    {
       title: 'Understanding ChatGPT',
       organization: 'DataCamp',
       date: 'May 2025',
