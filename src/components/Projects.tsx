@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import AnimatedSection from './AnimatedSection';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, Code2, Database } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Projects: React.FC = () => {
@@ -55,9 +55,63 @@ const Projects: React.FC = () => {
       github: 'https://github.com/Angelo-Ramarovahoaka/ML_Project',
       category: 'Other'
     },
+    {
+      title: 'Exploring NYC Public School Test Result Scores',
+      description: 'Data analysis project examining NYC public school test results to identify patterns and insights in educational performance across different schools and demographics.',
+      image: '/placeholder.svg',
+      tags: [{ name: 'Python', icon: Code2 }, 'Data Analysis', 'Education', 'Statistics'],
+      link: 'https://app.datacamp.com/learn/projects/exploring_nyc_public_school_test_result_scores/guided/Python',
+      github: 'https://app.datacamp.com/learn/projects/exploring_nyc_public_school_test_result_scores/guided/Python',
+      category: 'Data Analysis'
+    },
+    {
+      title: 'Investigating Netflix Movies',
+      description: 'Comprehensive analysis of Netflix movie data to uncover trends in content duration, genres, and release patterns over time.',
+      image: '/placeholder.svg',
+      tags: [{ name: 'Python', icon: Code2 }, 'Data Analysis', 'Entertainment', 'Visualization'],
+      link: 'https://app.datacamp.com/learn/projects/investigating_netflix/guided/Python',
+      github: 'https://app.datacamp.com/learn/projects/investigating_netflix/guided/Python',
+      category: 'Data Analysis'
+    },
+    {
+      title: 'Analyzing Crime in Los Angeles',
+      description: 'Statistical analysis of crime data in Los Angeles to identify patterns, hotspots, and temporal trends for public safety insights.',
+      image: '/placeholder.svg',
+      tags: [{ name: 'Python', icon: Code2 }, 'Data Analysis', 'Public Safety', 'Statistics'],
+      link: 'https://app.datacamp.com/learn/projects/1876',
+      github: 'https://app.datacamp.com/learn/projects/1876',
+      category: 'Data Analysis'
+    },
+    {
+      title: 'Visualizing the History of Nobel Prize Winners',
+      description: 'Data visualization project exploring Nobel Prize winners throughout history, analyzing trends by category, gender, and geography.',
+      image: '/placeholder.svg',
+      tags: [{ name: 'Python', icon: Code2 }, 'Data Visualization', 'History', 'Analytics'],
+      link: 'https://app.datacamp.com/learn/projects/visualizing_the_history_of_nobel_prize_winners/guided/Python',
+      github: 'https://app.datacamp.com/learn/projects/visualizing_the_history_of_nobel_prize_winners/guided/Python',
+      category: 'Data Analysis'
+    },
+    {
+      title: 'Analyzing Motorcycle Part Sales',
+      description: 'SQL-based analysis of motorcycle parts sales data to identify best-selling products, seasonal trends, and business insights.',
+      image: '/placeholder.svg',
+      tags: [{ name: 'SQL', icon: Database }, 'Data Analysis', 'Sales', 'Business Intelligence'],
+      link: 'https://app.datacamp.com/learn/projects/1574',
+      github: 'https://app.datacamp.com/learn/projects/1574',
+      category: 'Data Analysis'
+    },
+    {
+      title: 'Analyzing Students\' Mental Health',
+      description: 'SQL analysis of student mental health data to understand factors affecting student wellbeing and academic performance.',
+      image: '/placeholder.svg',
+      tags: [{ name: 'SQL', icon: Database }, 'Data Analysis', 'Healthcare', 'Education'],
+      link: 'https://app.datacamp.com/learn/projects/analyzing_students_mental_health/guided/SQL',
+      github: 'https://app.datacamp.com/learn/projects/analyzing_students_mental_health/guided/SQL',
+      category: 'Data Analysis'
+    },
   ];
 
-  const categories = ['All', 'Web', 'App', 'Other'];
+  const categories = ['All', 'Web', 'App', 'Data Analysis', 'Other'];
   const filteredProjects = activeCategory === 'All' 
     ? projects 
     : projects.filter(project => project.category === activeCategory);
@@ -117,9 +171,16 @@ const Projects: React.FC = () => {
                 {project.tags.map((tag, tagIndex) => (
                   <span 
                     key={tagIndex} 
-                    className="px-2 py-1 rounded-full text-xs bg-secondary/80 text-foreground"
+                    className="px-2 py-1 rounded-full text-xs bg-secondary/80 text-foreground flex items-center gap-1"
                   >
-                    {tag}
+                    {typeof tag === 'object' ? (
+                      <>
+                        <tag.icon size={12} />
+                        {tag.name}
+                      </>
+                    ) : (
+                      tag
+                    )}
                   </span>
                 ))}
               </div>
