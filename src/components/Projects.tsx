@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import AnimatedSection from './AnimatedSection';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, Database } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Projects: React.FC = () => {
@@ -55,9 +55,51 @@ const Projects: React.FC = () => {
       github: 'https://github.com/Angelo-Ramarovahoaka/ML_Project',
       category: 'Other'
     },
+    {
+      title: 'Data Analysis Projects',
+      description: 'Collection of data analysis projects using Python and SQL for exploring datasets, visualizations, and insights.',
+      image: '/lovable-uploads/701ac476-ac11-47cc-9250-1bad9606e236.png',
+      tags: ['Python', 'SQL', 'Data Analysis', 'Visualization', 'Statistics'],
+      link: 'https://app.datacamp.com/learn/projects/',
+      github: 'https://app.datacamp.com/learn/projects/',
+      category: 'Data',
+      isDataAnalysis: true,
+      dataProjects: [
+        {
+          name: 'Exploring NYC Public School Test Result Scores',
+          link: 'https://app.datacamp.com/learn/projects/exploring_nyc_public_school_test_result_scores/guided/Python',
+          tech: 'Python'
+        },
+        {
+          name: 'Investigating Netflix Movies',
+          link: 'https://app.datacamp.com/learn/projects/investigating_netflix/guided/Python',
+          tech: 'Python'
+        },
+        {
+          name: 'Analyzing Crime in Los Angeles',
+          link: 'https://app.datacamp.com/learn/projects/1876',
+          tech: 'Python'
+        },
+        {
+          name: 'Visualizing the History of Nobel Prize Winners',
+          link: 'https://app.datacamp.com/learn/projects/visualizing_the_history_of_nobel_prize_winners/guided/Python',
+          tech: 'Python'
+        },
+        {
+          name: 'Analyzing Motorcycle Part Sales',
+          link: 'https://app.datacamp.com/learn/projects/1574',
+          tech: 'SQL'
+        },
+        {
+          name: 'Analyzing Students\' Mental Health',
+          link: 'https://app.datacamp.com/learn/projects/analyzing_students_mental_health/guided/SQL',
+          tech: 'SQL'
+        }
+      ]
+    },
   ];
 
-  const categories = ['All', 'Web', 'App', 'Other'];
+  const categories = ['All', 'Web', 'App', 'Data', 'Other'];
   const filteredProjects = activeCategory === 'All' 
     ? projects 
     : projects.filter(project => project.category === activeCategory);
@@ -113,36 +155,66 @@ const Projects: React.FC = () => {
               <h3 className="text-xl font-bold mb-3">{project.title}</h3>
               <p className="text-muted-foreground text-sm mb-4 flex-grow">{project.description}</p>
               
-              <div className="flex flex-wrap gap-2 mb-6">
-                {project.tags.map((tag, tagIndex) => (
-                  <span 
-                    key={tagIndex} 
-                    className="px-2 py-1 rounded-full text-xs bg-secondary/80 text-foreground"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
+              {project.isDataAnalysis ? (
+                <div className="space-y-3 mb-6">
+                  {project.dataProjects.map((dataProject, dpIndex) => (
+                    <div key={dpIndex} className="flex items-center justify-between p-3 rounded-lg bg-secondary/30 border border-border/30">
+                      <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-1">
+                          {dataProject.tech === 'Python' ? (
+                            <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
+                          ) : (
+                            <Database size={12} className="text-blue-500" />
+                          )}
+                          <span className="text-xs font-medium text-muted-foreground">{dataProject.tech}</span>
+                        </div>
+                        <span className="text-sm font-medium">{dataProject.name}</span>
+                      </div>
+                      <a 
+                        href={dataProject.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="p-1 rounded-full hover:bg-secondary/50 transition-colors"
+                      >
+                        <ExternalLink size={12} className="text-primary" />
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {project.tags.map((tag, tagIndex) => (
+                    <span 
+                      key={tagIndex} 
+                      className="px-2 py-1 rounded-full text-xs bg-secondary/80 text-foreground"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )}
               
-              <div className="flex justify-between items-center">
-                <a 
-                  href={project.link}
-                  className="text-sm font-medium text-primary flex items-center gap-1.5 transition-colors hover:text-primary/80"
-                >
-                  {t.projects.viewProject}
-                  <ExternalLink size={14} />
-                </a>
-                
-                <a 
-                  href={project.github}
-                  className="p-2 rounded-full bg-secondary/80 text-foreground hover:bg-secondary transition-colors"
-                  aria-label="GitHub Repository"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Github size={18} />
-                </a>
-              </div>
+              {!project.isDataAnalysis && (
+                <div className="flex justify-between items-center">
+                  <a 
+                    href={project.link}
+                    className="text-sm font-medium text-primary flex items-center gap-1.5 transition-colors hover:text-primary/80"
+                  >
+                    {t.projects.viewProject}
+                    <ExternalLink size={14} />
+                  </a>
+                  
+                  <a 
+                    href={project.github}
+                    className="p-2 rounded-full bg-secondary/80 text-foreground hover:bg-secondary transition-colors"
+                    aria-label="GitHub Repository"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Github size={18} />
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         ))}
