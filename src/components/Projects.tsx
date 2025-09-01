@@ -58,7 +58,7 @@ const Projects: React.FC = () => {
     {
       title: 'Data Analysis Projects',
       description: 'Collection of data analysis projects using Python and SQL for exploring datasets, visualizations, and insights.',
-      image: '/lovable-uploads/701ac476-ac11-47cc-9250-1bad9606e236.png',
+      image: '/lovable-uploads/5cfe9e61-36a5-4141-8b76-779d0177b759.png',
       tags: ['Python', 'SQL', 'Data Analysis', 'Visualization', 'Statistics'],
       link: 'https://app.datacamp.com/learn/projects/',
       github: 'https://app.datacamp.com/learn/projects/',
