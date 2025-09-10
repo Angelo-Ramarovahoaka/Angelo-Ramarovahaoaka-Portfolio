@@ -19,12 +19,12 @@ const translationsData = {
     },
     about: {
       title: 'About Me',
-      subtitle: 'ML & AI Enthusiast | Entrepreneurship',
-      description: 'Passionate AI & Machine Learning specialist with a strong entrepreneurial mindset. I focus on developing intelligent systems and innovative solutions that solve real-world problems. My expertise spans from deep learning algorithms to building scalable AI applications and leading tech ventures.',
+      subtitle: 'Data Science & Analytics | Entrepreneurship',
+      description: 'Passionate Data scientist with a strong entrepreneurial mindset. I specialize in extracting meaningful insights from complex datasets and building data-driven solutions that solve real-world problems. My expertise spans from statistical analysis and machine learning to creating compelling data visualizations and leading tech ventures.',
       skills: 'Skills',
       experience: 'Experience',
       certifications: 'Certifications',
-      certificationsSubtitle: 'Professional certifications in AI, Machine Learning, Data Science, and Programming',
+      certificationsSubtitle: 'Professional certifications in Data Science, Analytics, Statistics, and Programming',
       showMore: 'Show More',
       showLess: 'Show Less',
       experienceItems: {
@@ -112,17 +112,17 @@ const translationsData = {
     },
     hero: {
       greeting: 'Bonjour, je suis',
-      role: 'Spécialiste IA & Machine Learning | Entrepreneur & Innovateur',
+      role: 'Data scientist | Entrepreneur & Innovateur',
       cta: 'Découvrir Mon Travail',
     },
     about: {
       title: 'À Propos de Moi',
-      subtitle: 'Passionné ML & IA | Entrepreneuriat',
-      description: 'Spécialiste passionné en IA et Machine Learning avec un fort esprit entrepreneurial. Je me concentre sur le développement de systèmes intelligents et de solutions innovantes qui résolvent des problèmes concrets. Mon expertise s\'étend des algorithmes d\'apprentissage profond à la création d\'applications IA évolutives et à la direction d\'entreprises technologiques.',
+      subtitle: 'Science des Données & Analytique | Entrepreneuriat',
+      description: 'Data scientist passionné avec un fort esprit entrepreneurial. Je me spécialise dans l\'extraction d\'insights significatifs à partir de jeux de données complexes et dans la création de solutions basées sur les données qui résolvent des problèmes réels. Mon expertise s\'étend de l\'analyse statistique et du machine learning à la création de visualisations de données convaincantes et à la direction d\'entreprises technologiques.',
       skills: 'Compétences',
       experience: 'Expérience',
       certifications: 'Certifications',
-      certificationsSubtitle: 'Certifications professionnelles en IA, Machine Learning, Science des Données et Programmation',
+      certificationsSubtitle: 'Certifications professionnelles en Science des Données, Analytique, Statistiques et Programmation',
       showMore: 'Voir Plus',
       showLess: 'Voir Moins',
       experienceItems: {

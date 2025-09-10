@@ -12,8 +12,8 @@ const About: React.FC = () => {
   
   const skillCategories = [
     {
-      title: 'AI & Machine Learning',
-      skills: ['Artificial Intelligence', 'Machine Learning', 'Deep Learning', 'TensorFlow', 'PyTorch', 'Data Science', 'Computer Vision', 'Natural Language Processing', 'Neural Networks']
+      title: 'Data Science & Analytics',
+      skills: ['Data Science', 'Statistical Analysis', 'Machine Learning', 'Data Visualization', 'Python', 'SQL', 'Pandas', 'Seaborn', 'Data Mining', 'Predictive Analytics']
     },
     {
       title: 'Programming & Development',
