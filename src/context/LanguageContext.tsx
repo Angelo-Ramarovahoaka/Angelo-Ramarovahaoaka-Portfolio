@@ -14,7 +14,7 @@ const translationsData = {
     },
     hero: {
       greeting: 'Hello, I am',
-      role: 'AI & Machine Learning Specialist | Entrepreneur & Innovator',
+      role: 'Data scientist | Entrepreneur & Innovator',
       cta: 'Discover My Work',
     },
     about: {

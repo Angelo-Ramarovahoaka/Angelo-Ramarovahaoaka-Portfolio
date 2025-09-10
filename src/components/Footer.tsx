@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
                 Angelo R.
               </a>
               <p className="mt-2 text-sm text-muted-foreground max-w-md">
-                AI & Machine Learning Specialist | Entrepreneur & Innovator
+                Data scientist | Entrepreneur & Innovator
               </p>
             </div>
           </div>
