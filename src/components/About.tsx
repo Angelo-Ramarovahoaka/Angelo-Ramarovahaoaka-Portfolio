@@ -13,11 +13,11 @@ const About: React.FC = () => {
   const skillCategories = [
     {
       title: 'Data Science & Analytics',
-      skills: ['Data Science', 'Statistical Analysis', 'Machine Learning', 'Data Visualization', 'Python', 'SQL', 'Pandas', 'Seaborn', 'Data Mining', 'Predictive Analytics']
+      skills: ['Data Science', 'Statistical Analysis', 'Machine Learning', 'Deep Learning', 'Neural Networks', 'Data Visualization', 'Python', 'SQL', 'Pandas', 'Seaborn', 'Data Mining', 'Predictive Analytics']
     },
     {
       title: 'Programming & Development',
-      skills: ['Python', 'C++', 'JavaScript', 'TypeScript', 'React', 'React Native', 'Node.js', 'NestJS', 'Frontend Development', 'Backend Development']
+      skills: ['Python', 'C++', 'JavaScript', 'TypeScript', 'React', 'React Native', 'Node.js', 'NestJS', 'TensorFlow', 'PyTorch', 'Frontend Development', 'Backend Development']
     },
     {
       title: 'Mobile Development',
