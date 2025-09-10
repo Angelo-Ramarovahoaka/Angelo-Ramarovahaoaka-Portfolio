@@ -17,7 +17,7 @@ const About: React.FC = () => {
     },
     {
       title: 'Programming & Development',
-      skills: ['Python', 'C++', 'JavaScript', 'TypeScript', 'React', 'React Native', 'Node.js', 'NestJS', 'TensorFlow', 'PyTorch', 'Frontend Development', 'Backend Development']
+      skills: ['Python', 'C++', 'JavaScript', 'TypeScript', 'React', 'React Native', 'Node.js', 'NestJS', 'Frontend Development', 'Backend Development']
     },
     {
       title: 'Mobile Development',
