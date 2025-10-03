@@ -32,7 +32,7 @@ const translationsData = {
           title: 'Leader',
           company: 'RamaroFish',
           period: '2024 – Present',
-          description: 'Leading a company specializing in fish farming (tilapia, carp). Development of smart solutions (connected sensors, AI for growth monitoring).'
+          description: 'Leading an initiative specializing in fish farming (tilapia, carp). Development of smart solutions (connected sensors, AI for growth monitoring).'
         },
         smartKajy: {
           title: 'Project Coordinator & Co-founder',
@@ -77,7 +77,7 @@ const translationsData = {
       ramaroFish: {
         title: 'RamaroFish',
         role: 'Leader',
-        description: 'Leading an innovative aquaculture company specializing in the farming of tilapia and carp. We design and implement smart technologies, including connected sensors and AI-driven solutions, to monitor and optimize fish growth and overall farm performance'
+        description: 'Leading an innovative aquaculture initiative specializing in the farming of tilapia and carp. We design and implement smart technologies, including connected sensors and AI-driven solutions, to monitor and optimize fish growth and overall farm performance'
       }
     },
     contact: {
@@ -130,7 +130,7 @@ const translationsData = {
           title: 'Leader',
           company: 'RamaroFish',
           period: '2024 – Présent',
-          description: 'Dirigeant d\'une entreprise spécialisée dans l\'élevage de poissons (tilapia, carpe). Développement de solutions intelligentes (capteurs connectés, IA pour le suivi de croissance).'
+          description: 'Dirigeant d\'une initiative spécialisée dans l\'élevage de poissons (tilapia, carpe). Développement de solutions intelligentes (capteurs connectés, IA pour le suivi de croissance).'
         },
         smartKajy: {
           title: 'Coordinateur de Projet & Co-fondateur',
@@ -175,7 +175,7 @@ const translationsData = {
       ramaroFish: {
         title: 'RamaroFish',
         role: 'Leader',
-        description: 'Dirigeant d\'une entreprise aquacole innovante spécialisée dans l\'élevage de tilapia et de carpe. Nous concevons et mettons en œuvre des technologies intelligentes, incluant des capteurs connectés et des solutions basées sur l\'IA, pour surveiller et optimiser la croissance des poissons et la performance globale de la ferme'
+        description: 'Dirigeant d\'une initiative aquacole innovante spécialisée dans l\'élevage de tilapia et de carpe. Nous concevons et mettons en œuvre des technologies intelligentes, incluant des capteurs connectés et des solutions basées sur l\'IA, pour surveiller et optimiser la croissance des poissons et la performance globale de la ferme'
       }
     },
     contact: {
