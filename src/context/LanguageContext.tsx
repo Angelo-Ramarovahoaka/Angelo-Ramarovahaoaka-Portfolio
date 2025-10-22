@@ -14,7 +14,7 @@ const translationsData = {
     },
     hero: {
       greeting: 'Hello, I am',
-      role: 'Data scientist | Entrepreneur & Innovator',
+      role: 'Data Scientist | Developer',
       cta: 'Discover My Work',
     },
     about: {
@@ -112,7 +112,7 @@ const translationsData = {
     },
     hero: {
       greeting: 'Bonjour, je suis',
-      role: 'Data scientist | Entrepreneur & Innovateur',
+      role: 'Data Scientist | Developer',
       cta: 'Découvrir Mon Travail',
     },
     about: {
