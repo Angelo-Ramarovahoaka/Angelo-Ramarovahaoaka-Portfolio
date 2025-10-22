@@ -19,8 +19,8 @@ const translationsData = {
     },
     about: {
       title: 'About Me',
-      subtitle: 'Data Science & Analytics | Entrepreneurship',
-      description: 'Passionate Data scientist with a strong entrepreneurial mindset. I specialize in extracting meaningful insights from complex datasets and building data-driven solutions that solve real-world problems. My expertise spans from statistical analysis and machine learning to creating compelling data visualizations and leading tech ventures.',
+      subtitle: 'Data Science & Analytics | Software Development',
+      description: 'Passionate Data Scientist and Developer specializing in extracting meaningful insights from complex datasets and building data-driven applications. My expertise spans from statistical analysis and machine learning to creating compelling data visualizations and developing robust software solutions that solve real-world problems.',
       skills: 'Skills',
       experience: 'Experience',
       certifications: 'Certifications',
@@ -117,8 +117,8 @@ const translationsData = {
     },
     about: {
       title: 'À Propos de Moi',
-      subtitle: 'Science des Données & Analytique | Entrepreneuriat',
-      description: 'Data scientist passionné avec un fort esprit entrepreneurial. Je me spécialise dans l\'extraction d\'insights significatifs à partir de jeux de données complexes et dans la création de solutions basées sur les données qui résolvent des problèmes réels. Mon expertise s\'étend de l\'analyse statistique et du machine learning à la création de visualisations de données convaincantes et à la direction d\'entreprises technologiques.',
+      subtitle: 'Science des Données & Analytique | Développement Logiciel',
+      description: 'Data Scientist et Développeur passionné spécialisé dans l\'extraction d\'insights significatifs à partir de jeux de données complexes et dans la création d\'applications basées sur les données. Mon expertise s\'étend de l\'analyse statistique et du machine learning à la création de visualisations de données convaincantes et au développement de solutions logicielles robustes qui résolvent des problèmes réels.',
       skills: 'Compétences',
       experience: 'Expérience',
       certifications: 'Certifications',
