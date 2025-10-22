@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
                 Angelo R.
               </a>
               <p className="mt-2 text-sm text-muted-foreground max-w-md">
-                Data scientist | Entrepreneur & Innovator
+                Data Scientist | Developer
               </p>
             </div>
           </div>
@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li><span className="text-sm text-muted-foreground">Artificial Intelligence</span></li>
               <li><span className="text-sm text-muted-foreground">Machine Learning</span></li>
-              <li><span className="text-sm text-muted-foreground">Entrepreneurship</span></li>
+              <li><span className="text-sm text-muted-foreground">Software Development</span></li>
             </ul>
           </div>
           
