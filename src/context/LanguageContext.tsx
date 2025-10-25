@@ -9,7 +9,6 @@ const translationsData = {
     nav: {
       about: 'About',
       projects: 'Projects',
-      ventures: 'Ventures',
       contact: 'Contact',
     },
     hero: {
@@ -107,7 +106,6 @@ const translationsData = {
     nav: {
       about: 'À Propos',
       projects: 'Projets',
-      ventures: 'Entreprises',
       contact: 'Contact',
     },
     hero: {
